@@ -4,7 +4,8 @@ version: 2
 sources:
     - name: staging
       #For bigquery:
-      #database: taxi-rides-ny-339813
+      #database: starry-hawk-374910
+      schema: main
 
       # For postgres:
       #database: production
@@ -12,7 +13,7 @@ sources:
       #schema: trips_data_all
 
       # DuckDB
-      schema: main
+      #schema: main
 
       # loaded_at_field: record_loaded_at
       tables:
